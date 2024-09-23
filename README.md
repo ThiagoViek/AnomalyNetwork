@@ -4,6 +4,7 @@
 **Date:** 19.09.2024 
 
 This repository contains the files and resources for the development of the Deep Stochastic Anomaly Network for Product Anomaly Detection. The rationale is to train the network to "overfit" the normal data and behave unexpectedly when encountering outliers, so that heuristics for defect segmentation can be applied.
+Work based on **https://arxiv.org/pdf/1911.02357**.
 
 ## Repository Structure
 

@@ -1,0 +1,14 @@
+# SESSION SPECS
+session : test
+patch_size : 17
+
+student_network_loading_path : model-checkpoints/student/studentNet17_fine.pt
+teacher_network_loading_path : model-checkpoints/teacher/teacherNet17_robust.pt
+
+# DATA SPECS
+dataset_good_path : 0
+dataset_defect_path : 0
+
+img_width : 80
+img_height : 80
+channels : 1

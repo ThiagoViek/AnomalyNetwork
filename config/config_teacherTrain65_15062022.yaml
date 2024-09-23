@@ -1,0 +1,19 @@
+# DATA SPECS
+dataset_train_path : ../dataset/imagenet/train/
+dataset_val_path : ../dataset/imagenet/val/
+
+# SESSION SPECS
+session : train
+learning_target : teacher
+learning_fineTuning : False
+
+batch_size : 64
+learning_rate : 1.e-4
+weight_decay : 1.e-5
+iterations : 5.e+4
+patch_size : 65
+softmax_temperature : 1.1
+
+flag_load_teacher_model : False
+teacher_model_loading_path : model-checkpoints/teacher/teacherNet65_robust.pt
+teacher_model_saving_path : model-checkpoints/teacherteacherNet65_robust.pt

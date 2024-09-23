@@ -1,0 +1,23 @@
+# SESSION SPECS
+session : train
+learning_target : student
+
+batch_size : 1
+optimizer_step_rate : 16 
+learning_rate : 1.e-4
+weight_decay : 1.e-5
+iterations : 5.e+4
+patch_size : 17
+training_mode_fileTuning: True
+
+flag_load_student_network : True 
+student_network_loading_path : model-checkpoints/studentNet17_fine.pt
+student_network_saving_path : model-checkpoints/studentNet17_fine.pt
+teacher_network_loading_path : model-checkpoints/teacherNet17_robust.pt
+
+# DATA SPECS
+dataset_train_path : ../dataset/Session_RoundEmbossed_13052022/train/
+dataset_val_path : ../dataset/Session_RoundEmbossed_13052022/val/
+
+img_width : 128
+img_height : 128

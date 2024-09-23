@@ -1,0 +1,6 @@
+__pycache__/
+data/datasets/
+data/__pycache__/
+models/__pycache__/
+model-checkpoints/
+logs/
